@@ -24,7 +24,7 @@ The patient-side GUI client provides a graphical user interface with the followi
 The existing ECG analysis code module is modified with a function that the GUI calls to analyze the patient heart rate.
 
 <p align="center">
-    <img src="images/PatientGUI.png" alt="Patient-side GUI" width="700"/>
+    <img src="images/PatientGUI.png" alt="Patient-side GUI" width="550"/>
 </p>
 
 ## Monitoring Station GUI Client
@@ -48,7 +48,7 @@ The monitoring station GUI client provides a graphical user interface with the f
 
 ## User Instructions & Project Overview
 
-Please watch the following instructional video. 
+Please watch the following instructional video. <br>
 <https://drive.google.com/file/d/1PWkV9IJmzFpRatDi6QVuMnHKRQQvGcz9/view?usp=sharing>
 
 
@@ -71,7 +71,7 @@ Because a patient's medical record number is unique to each patient, `number` is
 
 ## Server
 
-The server is run on a virtual machine with the url <http://152.3.69.122:5011/>. **The server is currently inactive.** 
+The server is run on a virtual machine. **The server is currently inactive.** <br>
 We developed a **RESTful API** that implements the following tasks needed by the clients:
 
 * Accepts uploads from the patient-side client that includes the patient medical record number at a minimum. The upload may also contain a patient name, medical image, and/or heart rate & ECG image.
