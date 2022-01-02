@@ -48,7 +48,7 @@ The monitoring station GUI client provides a graphical user interface with the f
 
 ## User Instructions & Project Overview
 
-Please watch the following instructional video. 
+Please watch the following instructional video. <br>
 <https://drive.google.com/file/d/1PWkV9IJmzFpRatDi6QVuMnHKRQQvGcz9/view?usp=sharing>
 
 
