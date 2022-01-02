@@ -23,6 +23,7 @@ The patient-side GUI client provides a graphical user interface with the followi
 
 The existing ECG analysis code module is modified with a function that the GUI calls to analyze the patient heart rate.
 
+![Patient-side GUI](images/PatientGUI.png)
 
 ## Monitoring Station GUI Client
 
@@ -37,6 +38,8 @@ The monitoring station GUI client provides a graphical user interface with the f
 * Make periodic requests (at least every 30 seconds) to the server to check for updated information from the selected patient. If a new heart rate and ECG image are available, they will be automaticallu downloaded and displayed on the interface.
 * When the user wants to select a new patient, select an historical ECG, or select a medical image for a patient, the choices on the interface should represent the most recent options on the server.
 * Make RESTful API requests to the server to get lists of available patient medical record numbers, available data for the selected patient, and the data themselves.
+
+![Monitoring Station GUI](images/MonitoringGUI.png)
 
 ## User Instructions & Project Overview
 
