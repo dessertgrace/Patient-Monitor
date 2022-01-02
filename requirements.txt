@@ -1,0 +1,14 @@
+pymodm
+requests
+flask
+testfixtures
+pytest
+pytest-pycodestyle
+dnspython
+matplotlib
+scikit-image
+numpy
+matplotlib
+scipy
+testfixtures
+Pillow
