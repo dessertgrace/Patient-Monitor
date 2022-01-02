@@ -11,7 +11,7 @@ connect("mongodb+srv://dessertgrace:"
         "net/myFirstDatabase?retryWrites"
         "=true&w=majority", ssl_cert_reqs=ssl.CERT_NONE)
 
-server_name = "http://152.3.69.122:5011/"
+server_name = "http://127.0.0.1:5000/"
 
 
 def add_new_info_to_server(number, name="", heart_rate=1,

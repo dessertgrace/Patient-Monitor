@@ -2,14 +2,14 @@ import datetime
 import requests
 import patientMonitoringServer as pms
 
-server_name = "http://152.3.69.122:5011/"
+server_name = "http://127.0.0.1:5000/"
 
 
 def check_server_status():
     """Check if the server is on
 
     Check if the server is on by making a get request
-    to the base url 'http://152.3.69.122:5011/'
+    to the base url 'http://0.0.0.0:5011/'
     Print the message and error code to the screen
 
     :return: None

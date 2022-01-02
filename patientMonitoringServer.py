@@ -804,4 +804,5 @@ if __name__ == '__main__':
     initialize_server()
     server_status()
     clearDB()
-    app.run(host="0.0.0.0", port=5011)
+    # app.run(host="0.0.0.0", port=5011)
+    app.run()
