@@ -1,4 +1,4 @@
-name: Pytest with Pycodestyle
+name: CI
 
 on: [push, pull_request]
 
