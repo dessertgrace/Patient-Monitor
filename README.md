@@ -1,9 +1,7 @@
 # Patient Monitoring System
 
 
-The Patient Monitoring System uses a client-server structure and two graphical user interfaces (GUIs) to allow patient data to be stored in a cloud database and retrieved for continuous monitoring. 
-It uses signal processing to analyze uploaded ECG information, and compare new ECG entries with historical data. This system includes a patient-side GUI and a monitoring-station GUI as clients to communicate with the server and interface with the database. 
-This project was developed with a partner as the final project for BME 547: Medical Software Design.
+The Patient Monitoring System uses a client-server structure and two graphical user interfaces (GUIs) to allow patient data (medical images and ECG data) to be stored in a cloud database and retrieved for continuous monitoring. This system includes a patient-side GUI and a monitoring-station GUI as clients to communicate with the server and interface with the database. Uploaded ECG information is processed using filtering and peak detection with the Scipy package, and can be visualized on the GUIs and compared with historical data. This project was developed with a partner as the final project for BME 547: Medical Software Design.
 
 ## ECG Signal Processing
 
