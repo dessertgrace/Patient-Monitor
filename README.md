@@ -25,8 +25,9 @@ The existing ECG analysis code module is modified with a function that the GUI c
 
 ![Patient-side GUI](images/PatientGUI.png)
 <p align="center">
-    <img src="images/PatientGUI.png" alt="Patient-side GUI" width="200"/>
+    <img src="images/PatientGUI.png" alt="Patient-side GUI" width="800"/>
 </p>
+
 ## Monitoring Station GUI Client
 
 The monitoring station GUI client provides a graphical user interface with the following functionality:
@@ -42,6 +43,11 @@ The monitoring station GUI client provides a graphical user interface with the f
 * Make RESTful API requests to the server to get lists of available patient medical record numbers, available data for the selected patient, and the data themselves.
 
 ![Monitoring Station GUI](images/MonitoringGUI.png)
+
+<p align="center">
+    <img src="images/MonitoringGUI.png" alt="Monitoring Station GUI" width="800"/>
+</p>
+
 
 ## User Instructions & Project Overview
 
