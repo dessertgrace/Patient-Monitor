@@ -71,7 +71,7 @@ Because a patient's medical record number is unique to each patient, `number` is
 
 ## Server
 
-The server is run on a virtual machine with the url <http://152.3.69.122:5011/>. **The server is currently inactive.** 
+The server is run on a virtual machine. <br> **The server is currently inactive.** <br>
 We developed a **RESTful API** that implements the following tasks needed by the clients:
 
 * Accepts uploads from the patient-side client that includes the patient medical record number at a minimum. The upload may also contain a patient name, medical image, and/or heart rate & ECG image.
