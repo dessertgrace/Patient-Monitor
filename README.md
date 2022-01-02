@@ -11,6 +11,8 @@ When ECG data is uploaded to the GUI as a .csv file, it is plotted using matplot
 The ECG data is processed to remove missing and non-number entries and validated to check if it has a valid voltage range. 
 The sampling rate is detected, and it is cleaned by applying a third order butterworth bandpass filter from the **scipy** package. Finally, using peak detection, the heart rate is calculated and stored.
 
+![ECG Data: Raw and Cleaned with Peaks](images/ECG_Process_Example.png)
+
 ## Patient-side GUI Client
 
 The patient-side GUI client provides a graphical user interface with the following functionality:
