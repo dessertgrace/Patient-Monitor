@@ -9,7 +9,9 @@ When ECG data is uploaded to the GUI as a .csv file, it is plotted using matplot
 The ECG data is processed to remove missing and non-number entries and validated to check if it has a valid voltage range. 
 The sampling rate is detected, and it is cleaned by applying a third order butterworth bandpass filter from the **scipy** package. Finally, using peak detection, the heart rate is calculated and stored.
 
-![ECG Data: Raw and Cleaned with Peaks](images/ECG_Process_Example.png)
+<p align="center">
+    <img src="images/ECG_Process_Example.png" alt="ECG Data: Raw and Cleaned with Peaks" width="800"/>
+</p>
 
 ## Patient-side GUI Client
 
@@ -23,9 +25,8 @@ The patient-side GUI client provides a graphical user interface with the followi
 
 The existing ECG analysis code module is modified with a function that the GUI calls to analyze the patient heart rate.
 
-![Patient-side GUI](images/PatientGUI.png)
 <p align="center">
-    <img src="images/PatientGUI.png" alt="Patient-side GUI" width="800"/>
+    <img src="images/PatientGUI.png" alt="Patient-side GUI" width="700"/>
 </p>
 
 ## Monitoring Station GUI Client
@@ -42,10 +43,8 @@ The monitoring station GUI client provides a graphical user interface with the f
 * When the user wants to select a new patient, select an historical ECG, or select a medical image for a patient, the choices on the interface should represent the most recent options on the server.
 * Make RESTful API requests to the server to get lists of available patient medical record numbers, available data for the selected patient, and the data themselves.
 
-![Monitoring Station GUI](images/MonitoringGUI.png)
-
 <p align="center">
-    <img src="images/MonitoringGUI.png" alt="Monitoring Station GUI" width="800"/>
+    <img src="images/MonitoringGUI.png" alt="Monitoring Station GUI" width="700"/>
 </p>
 
 
