@@ -24,8 +24,9 @@ The patient-side GUI client provides a graphical user interface with the followi
 The existing ECG analysis code module is modified with a function that the GUI calls to analyze the patient heart rate.
 
 ![Patient-side GUI](images/PatientGUI.png)
-<img src="images/PatientGUI.png" alt="Patient-side GUI" width="200"/>
-
+<p align="center">
+    <img src="images/PatientGUI.png" alt="Patient-side GUI" width="200"/>
+</p>
 ## Monitoring Station GUI Client
 
 The monitoring station GUI client provides a graphical user interface with the following functionality:
