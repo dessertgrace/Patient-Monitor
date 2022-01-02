@@ -1,6 +1,5 @@
 # Patient Monitoring System
 
-## Overview
 
 The Patient Monitoring System uses a client-server structure and two graphical user interfaces (GUIs) to allow patient data to be stored in a cloud database and retrieved for continuous monitoring. It includes a patient-side GUI and a monitoring-station GUI as clients to communicate with the server and interface with the database. This project was developed with a partner as the final project for BME 547: Medical Software Design.
 
